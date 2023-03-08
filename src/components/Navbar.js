@@ -4,7 +4,7 @@ import {IoIosContact} from 'react-icons/io'
 
 const Navbar = () => {
   return (
-    <main class='flex justify-center items-center mt-5 fixed w-full z-20 '>
+    <main class='flex justify-center items-center mt-5 fixed w-full z-20 xl:w-1/4   xl:right-2/5 '>
      <div class='flex md:w-2/3 w-4/5 justify-between  bg-[#121214] shadow-md shadow-white hover:shadow-[#008080] text-white p-4 rounded-lg'>     
       <a href='#home' class="text-sm gap-1  flex items-center font-medium md:text-2xl md:gap-4" >
        <AiOutlineHome/>

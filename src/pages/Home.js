@@ -6,8 +6,9 @@ import Projects from '../components/Projects'
 import Urgent from '../components/Urgent'
 const Home = () => {
   return (
-   <main class="bg-black text-white">
-    <Navbar/>
+   <main class="relative bg-black text-white ">
+    <section class="relative">
+      <Navbar/>
     <div id='home'>
       <About/>
     </div>
@@ -17,7 +18,10 @@ const Home = () => {
     <div id='contact'>
       <Contact/>
     </div>
-    <Urgent/>
+    <div class="flex justify-end items-end">
+      <Urgent/>
+    </div>
+    </section>
    </main>
   )
 }
