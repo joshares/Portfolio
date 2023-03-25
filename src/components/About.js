@@ -8,6 +8,7 @@ import java from '../images/java.png'
 import react from '../images/react.png'
 import tailwind from '../images/tailwind.webp'
 import vscode from '../images/vscode.png'
+import ts from '../images/ts.png'
 const About = () => {
 
   return (
@@ -55,6 +56,12 @@ const About = () => {
         <div class="pb-2 font-bold flex justify-center items-center flex-col bg-white text-black text-3xl border-t-4 border-t-blue-400 w-4/5 md:h-56">
         <img src={git} alt="img" class="w-1/3"/>
         <p >GIT</p>
+      </div>
+      </div>
+      <div class=" mt-4 flex justify-center items-center flex-col gap-3 md:flex-row ">
+        <div class=" flex justify-center items-center flex-col bg-white text-black text-3xl border-t-4 border-t-purple-500 w-4/5 pb-2 font-bold md:h-56 md:w-1/3 ">
+        <img src={ts} alt="img" class="w-1/3 md:w-32"/>
+        <p >TYPESCRIPT</p>
       </div>
       </div>
      </section>
