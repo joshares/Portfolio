@@ -4,7 +4,8 @@ import ip from '../images/ip.png'
 import art from '../images/art.png'
 import tic from '../images/tic.png'
 import space from '../images/space.png'
-import music from '../images/music.png'
+import country from '../images/country.png'
+
 
 const Projects = () => {
 
@@ -29,10 +30,10 @@ const Projects = () => {
           <p class="text-2xl uppercase">IPtracker</p>
           <p class="text-[#E1DACB]">A site use to track the location of an ip address </p>
         </div>
-        <div class="md:h-80 cursor-pointer hover:bg-[#008080] bg-[#121214] shadow-sm shadow-[#E7E9EA] w-4/5  rounded-lg p-4 text-center" onClick={()=> handleclick('https://joshares.github.io/music-app/')}>
-          <img src={music} alt="real" class="rounded-lg"/>
-          <p class="text-2xl uppercase">Music app</p>
-          <p class="text-[#E1DACB]">A music app built with react, css and with an api from rapid</p>
+        <div class="md:h-80 cursor-pointer hover:bg-[#008080] bg-[#121214] shadow-sm shadow-[#E7E9EA] w-4/5  rounded-lg p-4 text-center" onClick={()=> handleclick('https://joshares.github.io/countries')}>
+          <img src={country} alt="real" class="rounded-lg"/>
+          <p class="text-2xl uppercase">REST OF THE WORLD</p>
+          <p class="text-[#E1DACB]">A site that shows all the countries in the world and details about them</p>
         </div>
       </section>
       <section class="flex font-mono gap-4 my-4 flex-col justify-center items-center md:flex-row md:justify-between">
