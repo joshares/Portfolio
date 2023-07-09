@@ -23,10 +23,10 @@ const Projects = () => {
           onClick={() => handleclick("https://artde.vercel.app/")}
         >
           <img src={artde} alt="real" class="rounded-lg" />
-          <p class="text-2xl uppercase">Artsy</p>
+          <p class="text-2xl uppercase">Artde</p>
           <p class="text-[#E1DACB]">
             An art gallery e-commerce site built with
-            typescript,nextjs,mongodb,stripe and tailwind
+            typescript,nextjs,mongodb,stripe
           </p>
         </div>
         <div

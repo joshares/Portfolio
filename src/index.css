@@ -9,4 +9,7 @@
     background-size: cover;
     background: black;
   }
+  html {
+    scroll-behavior: smooth;
+  }
 }
